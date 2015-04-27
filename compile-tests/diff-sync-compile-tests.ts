@@ -2,6 +2,12 @@
 
 //NOTE: see folder's README.md
 
+// instantiate without new
+// only the mandatory parameters
+// -- this is cancelled. in TS it just adds a lot of verbosity and you gotta change the type name.
+//var syncClient:AeroGear.DiffSyncClientClass = AeroGear.DiffSyncClient({
+//    serverUrl: "ws://localhost:7777/sync"
+//});
 
 // with optional properties
 new AeroGear.DiffSyncClient({
